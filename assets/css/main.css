@@ -2688,9 +2688,12 @@ ul {
 }
 
 .dropdown-content {
+	border: 1px solid white;
+	background-color: #183026;
+	background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 203px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -2717,6 +2720,7 @@ ul {
 	color: black;
 	text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 	-webkit-text-stroke: 0.25px;
+	border: 2px solid white;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -2737,3 +2741,4 @@ ul {
 	text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 	-webkit-text-stroke: 0.25px;
 }
+
